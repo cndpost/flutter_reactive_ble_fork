@@ -1,4 +1,5 @@
 #Fork Notes: This fork removed the "maxSDKVersion=30" parameter in the following file so that an App that uses higher version SDKs will be supported;
+
    flutter_reactive_ble\packages\reactive_ble_mobile\android\src\main\AndroidManifest.xml
    
    

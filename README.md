@@ -1,3 +1,14 @@
+#Fork Notes: This fork removed the "maxSDKVersion=30" parameter in the following file so that an App that uses higher version SDKs will be supported;
+   flutter_reactive_ble\packages\reactive_ble_mobile\android\src\main\AndroidManifest.xml
+   
+   
+Otherwise the Apps targeting higher version of SDKs when using above package together, will be rejected by Google Play Store due to following errors:
+
+Duplicate declarations of permission android.permission.BLUETOOTH with different maxSdkVersions.
+
+With this fork, the local wteak to work around the problem is no longer needed. See the local tweak discussion in : 
+https://github.com/PhilipsHue/flutter_reactive_ble/issues/560
+
 # Flutter reactive BLE library
 
 [![flutter_reactive_ble version](https://img.shields.io/pub/v/flutter_reactive_ble?label=flutter_reactive_ble)](https://pub.dev/packages/flutter_reactive_ble)

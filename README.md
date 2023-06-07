@@ -7,7 +7,7 @@ Otherwise the Apps targeting higher version of SDKs when using above package tog
 
 Duplicate declarations of permission android.permission.BLUETOOTH with different maxSdkVersions.
 
-With this fork, the local wteak to work around the problem is no longer needed. See the local tweak discussion in : 
+With this fork, the local tweak to work around the problem is no longer needed. See the local tweak discussion in : 
 https://github.com/PhilipsHue/flutter_reactive_ble/issues/560
 
 # Flutter reactive BLE library
